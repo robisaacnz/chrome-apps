@@ -1,0 +1,18 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+  "name": "Contacts",
+  "description": "Access your reminders stored in iCloud.",
+  "manifest_version": 2,
+  "version": "1.0",
+  "icons": {
+    "128": "icon_128.png",
+    "16": "icon_16.png"
+ },
+  "offline_enabled": false,
+  "app": {
+    "launch": {
+      "container": "panel", 
+      "local_path": "main.html"
+    }
+  }
+}
