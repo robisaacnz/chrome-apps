@@ -1,1 +1,1 @@
-document.location.href = "https://www.icloud.com/#calendar";
+document.location.href = "https://www.icloud.com/#contacts";
