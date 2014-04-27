@@ -3,7 +3,7 @@
   "name": "Contacts",
   "description": "Access your contacts stored in iCloud.",
   "manifest_version": 2,
-  "version": "0.0.0.1",
+  "version": "1.0",
   "icons": {
     "128": "icon_128.png",
     "16": "icon_16.png"
