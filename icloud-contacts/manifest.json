@@ -11,7 +11,8 @@
   "offline_enabled": false,
   "app": {
     "launch": {
-	"local_path": "main.html"
+      "container": "panel", 
+      "local_path": "main.html"
     }
   }
 }
