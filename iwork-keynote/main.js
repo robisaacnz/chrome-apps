@@ -1,0 +1,1 @@
+document.location.href = "https://www.icloud.com/#keynote";
