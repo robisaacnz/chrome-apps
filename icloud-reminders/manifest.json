@@ -1,7 +1,7 @@
 {
   "name":"Reminders",
-  "description":"Access your reminders stored in iCloud.",
-  "version":"1.1",
+  "description":"Access your iCloud reminders.",
+  "version":"1.2",
   "update_url":"http://clients2.google.com/service/update2/crx",
   "manifest_version":2,
   "app":{

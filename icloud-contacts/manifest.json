@@ -1,7 +1,7 @@
 {
   "name":"Contacts",
-  "description":"Access your contacts stored in iCloud.",
-  "version":"1.1",
+  "description":"Access your iCloud contacts.",
+  "version":"1.2",
   "update_url":"http://clients2.google.com/service/update2/crx",
   "manifest_version":2,
   "app":{
