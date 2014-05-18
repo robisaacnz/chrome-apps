@@ -1,0 +1,27 @@
+{
+  "name":"Meal Planner",
+  "description":"Recipes and a shopping list to take the stress out of planning meals.",
+  "version":"1.0",
+  "update_url":"http://clients2.google.com/service/update2/crx",
+  "manifest_version":2,
+  "app":{
+    "urls":[
+      "http://www.heartfoundation.org.nz/resources/mealplan/"
+    ],
+    "launch":{
+      "web_url":"http://www.heartfoundation.org.nz/resources/mealplan/planner.html",
+      "container":"panel",
+      "width":1000,
+      "height":650
+    }
+  },
+  "icons":{
+    "16":"icon-16.png",
+    "128":"icon-128.png"
+  },
+  "permissions":[
+    "clipboardRead",
+    "clipboardWrite",
+    "notifications"
+  ]
+}
