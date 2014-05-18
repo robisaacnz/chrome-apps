@@ -1,0 +1,1 @@
+document.location.href = "http://www.skip.org.nz/information-for-parents/index.html";
