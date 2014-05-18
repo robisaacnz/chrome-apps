@@ -1,0 +1,27 @@
+{
+  "name":"Calendar",
+  "description":"Access your iCloud calendar.",
+  "version":"1.1",
+  "update_url":"http://clients2.google.com/service/update2/crx",
+  "manifest_version":2,
+  "app":{
+    "urls":[
+      "https://www.icloud.com/#calendar"
+    ],
+    "launch":{
+      "web_url":"https://www.icloud.com/#calendar",
+      "container":"panel",
+      "width":1000,
+      "height":650
+    }
+  },
+  "icons":{
+    "16":"icon-16.png",
+    "128":"icon-128.png"
+  },
+  "permissions":[
+    "clipboardRead",
+    "clipboardWrite",
+    "notifications"
+  ]
+}
