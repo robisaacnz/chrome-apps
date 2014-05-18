@@ -1,19 +1,27 @@
 {
-"update_url":"http://clients2.google.com/service/update2/crx",
-  "name": "SKIP",
-  "description": "Strategies with kids, information for parents.",
-  "manifest_version": 2,
-  "version": "1.0",
-  "icons": {
-    "128": "icon_128.png",
-    "16": "icon_16.png"
- },
-  "offline_enabled": false,
-  "app": {
-    "launch": {
-      "container": "panel", 
-      "local_path": "main.html",
-      "width": 950
+  "name":"SKIP",
+  "description":Strategies with kids, information for parents.",
+  "version":"1.1",
+  "update_url":"http://clients2.google.com/service/update2/crx",
+  "manifest_version":2,
+  "app":{
+    "urls":[
+      "http://www.skip.org.nz/information-for-parents/index.html"
+    ],
+    "launch":{
+      "web_url":"http://www.skip.org.nz/information-for-parents/index.html",
+      "container":"panel",
+      "width":1000,
+      "height":650
     }
-  }
+  },
+  "icons":{
+    "16":"icon-16.png",
+    "128":"icon-128.png"
+  },
+  "permissions":[
+    "clipboardRead",
+    "clipboardWrite",
+    "notifications"
+  ]
 }
