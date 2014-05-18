@@ -1,0 +1,27 @@
+{
+  "name":"Sorted",
+  "description":"The Kiwi guide to money.",
+  "version":"1.0",
+  "update_url":"http://clients2.google.com/service/update2/crx",
+  "manifest_version":2,
+  "app":{
+    "urls":[
+      "https://www.sorted.org.nz"
+    ],
+    "launch":{
+      "web_url":"https://www.sorted.org.nz",
+      "container":"panel",
+      "width":1000,
+      "height":650
+    }
+  },
+  "icons":{
+    "16":"icon-16.png",
+    "128":"icon-128.png"
+  },
+  "permissions":[
+    "clipboardRead",
+    "clipboardWrite",
+    "notifications"
+  ]
+}
