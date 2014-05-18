@@ -1,0 +1,27 @@
+{
+  "name":"Road Code",
+  "description":"A user-friendly guide to New Zealand’s traffic law.",
+  "version":"1.0",
+  "update_url":"http://clients2.google.com/service/update2/crx",
+  "manifest_version":2,
+  "app":{
+    "urls":[
+      "http://www.nzta.govt.nz/resources/roadcode/"
+    ],
+    "launch":{
+      "web_url":"http://www.nzta.govt.nz/resources/roadcode/road-code-index.html",
+      "container":"panel",
+      "width":1000,
+      "height":650
+    }
+  },
+  "icons":{
+    "16":"icon-16.png",
+    "128":"icon-128.png"
+  },
+  "permissions":[
+    "clipboardRead",
+    "clipboardWrite",
+    "notifications"
+  ]
+}
