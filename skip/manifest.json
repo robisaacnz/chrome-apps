@@ -1,6 +1,6 @@
 {
   "name":"SKIP",
-  "description":Strategies with kids, information for parents.",
+  "description":"Strategies with kids, information for parents.",
   "version":"1.1",
   "update_url":"http://clients2.google.com/service/update2/crx",
   "manifest_version":2,
