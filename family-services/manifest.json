@@ -1,17 +1,15 @@
 {
-  "name":"WINZ",
-  "description":"Work and Income provides employment services and financial assistance.",
+  "name":"Family Services",
+  "description":"Organisations in your area that can help.",
   "version":"1.0",
   "update_url":"http://clients2.google.com/service/update2/crx",
   "manifest_version":2,
   "app":{
     "urls":[
-      "https://services.workandincome.govt.nz/",
-      "http://www.workandincome.govt.nz/",
-      "https://www2.logon.realme.govt.nz/"
+      "http://www.familyservices.govt.nz/"
     ],
     "launch":{
-      "web_url":"https://services.workandincome.govt.nz/cos/cw/ResolvePage.do?page=SetupIntake",
+      "web_url":"http://www.familyservices.govt.nz/directory/",
       "container":"panel",
       "width":1000,
       "height":650
