@@ -1,0 +1,27 @@
+{
+  "name":"Pages",
+  "description":"Pages lets you create beautiful documents with impressive graphics.",
+  "version":"1.0",
+  "update_url":"http://clients2.google.com/service/update2/crx",
+  "manifest_version":2,
+  "app":{
+    "urls":[
+      "https://www.icloud.com/#pages"
+    ],
+    "launch":{
+      "web_url":"https://www.icloud.com/#pages",
+      "container":"panel",
+      "width":1000,
+      "height":650
+    }
+  },
+  "icons":{
+    "16":"icon-16.png",
+    "128":"icon-128.png"
+  },
+  "permissions":[
+    "clipboardRead",
+    "clipboardWrite",
+    "notifications"
+  ]
+}
