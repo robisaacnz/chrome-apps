@@ -1,7 +1,7 @@
 {
   "name":"Helpguide",
-  "description":"Work and Income provides employment services and financial assistance.",
-  "version":"1.0",
+  "description":"Expert help with mental health issues.",
+  "version":"1.1",
   "update_url":"http://clients2.google.com/service/update2/crx",
   "manifest_version":2,
   "app":{
